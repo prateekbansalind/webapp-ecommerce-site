@@ -1,0 +1,7 @@
+{% extends "shared.html" %}
+
+{% block content %}
+    <h1 class="text-center">Current Sales</h1>
+    <p class="lead text-center">Grab the best deals now before they're gone!</p>
+    <img src="{{ url_for('static', filename='sale.jpg') }}" alt="Sale banner" class="img-fluid rounded mx-auto d-block">
+{% endblock %}

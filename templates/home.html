@@ -1,0 +1,7 @@
+{% extends "shared.html" %}
+
+{% block content %}
+    <h1 class="text-center">Welcome to Our E-commerce Site</h1>
+    <p class="lead text-center">Find the latest products, amazing sales, and reliable support all in one place!</p>
+    <img src="{{ url_for('static', filename='home.jpg') }}" alt="E-commerce banner" class="img-fluid rounded mx-auto d-block mt-4">
+{% endblock %}

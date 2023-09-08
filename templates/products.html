@@ -1,0 +1,7 @@
+{% extends "shared.html" %}
+
+{% block content %}
+    <h1 class="text-center">Our Products</h1>
+    <p class="lead text-center">Discover a wide range of products to suit your needs!</p>
+    <img src="{{ url_for('static', filename='product.jpg') }}" alt="Image of products" class="img-fluid rounded mx-auto d-block">
+{% endblock %}
