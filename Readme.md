@@ -59,14 +59,3 @@ docker run -p 8080:80 webapp-ecommerce:v1.0
 
 The application should be accessible at: [http://localhost:8080/]
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
----
-
-You can adjust the above `README.md` content based on the specific details and requirements of your project. Make sure to replace placeholders (like `yourusername`, `yourrepositoryname`, and `your_flask_app_name`) with appropriate values. The README provides essential information about the project, how to set it up, run it, and how others can contribute.
